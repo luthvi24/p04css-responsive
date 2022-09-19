@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body{
+    font-family: 'Prompt', sans-serif;
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+legend{
+    font-weight: bold; 
+    color: blue;
+    cursor: pointer;
+    transition: 1.0s;
+}
+select{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.pilihan{
+    cursor: pointer;
+}
+legend:hover{
+    transform: scale(1.1);
+}
+.judul:hover{
+    background-color: gray;
+}
+.data:hover{
+    background-color: gray;
+}
+input:hover{
+    background-color: grey;
+}
+textarea:hover{
+    background-color: gray;
+}
+option:hover{
+    background-color: grey;
+}
+.kirim{
+    background-color: blue;
+}
+button{
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding:5px 14px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 170px;
+    margin-bottom: 60px;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.tombol{
+    text-align: left;
+}
+@media only screen and (max-width: 700px) {
+    body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .sadaya{
+    width: 100%;
+    padding: 0;
+  }
+  legend{
+    font-size: smaller;
+  }
+  h2{
+    font-size: smaller;
+  }
+  h3{
+    font-size: smaller;
+  }
+  ol{
+    font-size: 10px;
+  }
+  th{
+    font-size: 8px;
+  }
+  td{
+    font-size: 8px;
+  }
+  input{
+    font-size: 8px;
+  }
+  .ttd{
+    margin-top: 15px;
+  }
+  button{
+    font-size: 8px;
+    padding:5px 14px;
+    margin-left: 5px;
+  }
+  .pilihan{
+    margin-right: 0;
+  }
+  .darah{
+    margin: 0;
+  }
